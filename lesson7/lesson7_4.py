@@ -6,12 +6,13 @@ while(True):
     max:int = 100
     count:int = 0
 
+    print()
     target:int = random.randint(min, max)
     print(target)
     print("===========猜數字遊戲===========")
     while(True):
         keyin:int = pypi.inputInt(f"猜數字範圍{min}~{max}:",min=min, max=max)
-        print(keyin)
+        
         count += 1
         if keyin == target:
             print(f"賓果!猜對了, 答案是:{keyin}")
@@ -33,4 +34,4 @@ while(True):
 
 print()
 print("遊戲結束")
-print()
+print("===============================")
