@@ -7,9 +7,7 @@
 '''
 lesson9 -> 專案
     index.py -> 主程式(index.py or main.py)
-
-自訂的module -> tools.py
-
+    tools.py -> 自訂的module
 '''
 
 #內建的變數__name__
