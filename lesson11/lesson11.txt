@@ -1,0 +1,11 @@
+csv檔
+    簡單表個資料
+    純文字
+
+-> file物件 (像是管道)
+
+-> 透過 csv_moudle
+    DictReader()
+
+-> list
+    dict (python資料結構)
