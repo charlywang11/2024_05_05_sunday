@@ -2,10 +2,37 @@ csv檔
     簡單表個資料
     純文字
 
--> file物件 (像是管道)
+<- file物件 (像是管道)
 
--> 透過 csv_moudle
+<- 透過 csv_moudle
     DictReader()
 
--> list
+<- list
     dict (python資料結構)
+
+python資料結構(list) <- csv_moudle <- file物件 <- csv檔
+
+
+json檔
+    複雜的文字資料
+    根
+    {} -> dict
+    [] -> list
+
+moudle_json
+    dump() -> (json檔)
+    dumps() -> (json文字)
+
+    load()  -> (python資料結構)
+    loads() -> (python資料結構)
+
+python資料結構 <- 確保資料的完整性 <- json格式
+    確保資料的完整性-pydantic
+        過濾欄位(key)
+        轉換資料
+        驗證資料
+
+
+python3.10.14
+    pip
+    python
