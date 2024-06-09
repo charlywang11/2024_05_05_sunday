@@ -19,6 +19,8 @@ json檔
     {} -> dict
     [] -> list
 
+on json viewer -> https://jsonviewer.stack.hu/
+
 moudle_json
     dump() -> (json檔)
     dumps() -> (json文字)
