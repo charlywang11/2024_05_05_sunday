@@ -1,0 +1,19 @@
+#請下載台北市youbike及時資料(json),解析資料!
+
+#請幫我查出目前可借車輛數為3輛以內的站點
+#請幫我查出目前可還車輛數為3輛以內的站點
+#請將維護的站點移除
+'''
+請過濾
+sna:str(場站中文名稱)
+sarea:str(場站區域)
+mday:str(資料更新時間)
+ar:str(地點)
+act:bool(全站禁用狀態)
+total:int(場站總停車格)
+available_rent_bikes:int(場站目前車輛數量)
+available_return_bikes:int(空位數量)
+latitude:float(緯度)
+longitude:float(經度)
+'''
+#youbike = 'https://tcgbusfs.blob.core.windows.net/dotapp/youbike/v2/youbike_immediate.json'
