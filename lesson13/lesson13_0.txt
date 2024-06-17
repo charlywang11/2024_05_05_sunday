@@ -1,0 +1,22 @@
+repo
+
+repo ->  (github)
+     <-  codespace
+            資料夾
+            linux_Debian_bulleye
+                python3.10.14
+                    package:
+                    PyInputPlus
+                    pydantic
+                    requests
+
+repo ->  (Git)
+     <-  本機
+            資料夾
+            anaconda, miniconda
+                python3.10.14
+                    package:
+                    PyInputPlus
+                    pydantic
+                    requests
+
