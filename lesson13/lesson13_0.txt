@@ -13,7 +13,7 @@ repo ->  (github)
 repo ->  (Git)
      <-  本機
             資料夾
-            anaconda, miniconda
+            anaconda, miniconda -> cmd
                 python3.10.14
                     package:
                     PyInputPlus
