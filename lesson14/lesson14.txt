@@ -1,0 +1,13 @@
+先有畫布再有圖表
+
+畫布 Figure
+    圖表: Axes
+        text (標題title)
+        text (註解annotation)
+        Y-axis(Y軸)
+            y_label(標籤)
+            y_ticks(刻度)
+        X-axis(X軸)
+            X_label(標籤)
+            X_ticks(刻度)
+        Line2D
