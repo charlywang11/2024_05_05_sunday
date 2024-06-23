@@ -41,9 +41,23 @@ ndarray實體
     property    -> shape, ndim, size, dtype
     maethod()
 
-np.random.randint
-          axis1
-      [  [] [] []  ]
-axis0 [  [] [] []  ]
-      [  [] [] []  ]
--> [axis0,axis1]
+    ndArray
+               axis=1
+           [  [] [] []  ]
+    axis=0 [  [] [] []  ]
+           [  [] [] []  ]
+    -> [axis0,axis1]
+
+    ndArray的缺點
+               axis=1
+             (columns)
+           [  [] [] []  ]
+    axis=0 [  [] [] []  ]
+    (row)  [  [] [] []  ]
+
+Pandas
+    ndArray
+    Series    -> index(1維資料)
+    DataFrame -> index, columns(2維資料)
+
+    DataFrame實體
