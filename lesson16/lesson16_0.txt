@@ -22,3 +22,5 @@ DataFrame
         dataFrame.實體方法
             dataFrame.reindex()
             dataFrame.drop()
+    2.刪除資料
+        dataFrame.drop_na()
