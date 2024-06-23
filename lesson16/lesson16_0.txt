@@ -19,4 +19,6 @@ DataFrame
         dataFrame[]
         dataFrame.iloc[]
         dataFrame.loc[]
-        dataFrame.reindex()  #實體方法
+        dataFrame.實體方法
+            dataFrame.reindex()
+            dataFrame.drop()
