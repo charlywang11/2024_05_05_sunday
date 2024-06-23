@@ -14,3 +14,10 @@ n2 = [2,4,6,8,10]
     numpy
     scipy
     Pandas
+python3.10.14
+    package
+
+module
+    常數        pi
+    function   arange() - 三角函數、統計、科學運算
+    class      nbarray
