@@ -1,10 +1,17 @@
-    DataFrame的subscript (三種)
-        DataFrame[]         -> 選取欄
-        DataFrame.loc[]     -> [index,columns] 索引名稱
-        DataFrame.iloc[]    -> [index,columns] 索引編號
-        
-        Series
-                columns
-            [  [] [] []  ]
-     index  [  [] [] []  ]
-            [  [] [] []  ]
+DataFrame的subscript (三種)
+    DataFrame[]         -> 選取欄
+    DataFrame.loc[]     -> [index,columns] 索引名稱
+    DataFrame.iloc[]    -> [index,columns] 索引編號
+
+    Series
+            columns
+        [  [] [] []  ]
+    index  [  [] [] []  ]
+        [  [] [] []  ]
+
+numpy-module
+    統計
+    
+
+DataFrame
+    實體方法
