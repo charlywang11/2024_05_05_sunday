@@ -21,3 +21,22 @@ module
     常數        pi
     function   arange() - 三角函數、統計、科學運算
     class      nbarray
+
+list 實作表格資料
+    list[list]
+    list[dict]
+
+    2dimension
+        外部list
+            [            ]
+            [            ]
+            [            ]
+        內部list
+            [  [] [] []  ]
+            [  [] [] []  ]
+            [  [] [] []  ]
+
+ndarray實體
+    attrbute
+    property    -> shape, ndim, size, dtype
+    maethod()
