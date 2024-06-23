@@ -61,3 +61,4 @@ Pandas
     DataFrame -> index, columns(2維資料)
 
     DataFrame實體
+        attribule:value
