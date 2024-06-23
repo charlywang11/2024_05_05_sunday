@@ -3,11 +3,11 @@ DataFrame的subscript (三種)
     DataFrame.loc[]     -> [index,columns] 索引名稱
     DataFrame.iloc[]    -> [index,columns] 索引編號
 
-    Series
+    Series        
             columns
-        [  [] [] []  ]
-    index  [  [] [] []  ]
-        [  [] [] []  ]
+         [  [] [] []  ]
+   index [  [] [] []  ]
+         [  [] [] []  ]
 
 numpy-module
     統計
@@ -22,5 +22,9 @@ DataFrame
         dataFrame.實體方法
             dataFrame.reindex()
             dataFrame.drop()
-    2.刪除資料
-        dataFrame.drop_na()
+    2.變更index
+        dataFrame.set_index()
+檢查資料
+    dataFrame.info
+轉換型別
+    series.astype()
