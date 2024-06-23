@@ -62,3 +62,8 @@ Pandas
 
     DataFrame實體
         attribule:value
+
+    DataFrame的subscript
+        DataFrame[]         -> 選取欄
+        DataFrame.loc[]     -> [index,columns] 索引名稱
+        DataFrame.iloc[]    -> [index,columns] 索引編號
