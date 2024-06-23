@@ -40,3 +40,10 @@ ndarray實體
     attrbute
     property    -> shape, ndim, size, dtype
     maethod()
+
+np.random.randint
+          axis1
+      [  [] [] []  ]
+axis0 [  [] [] []  ]
+      [  [] [] []  ]
+-> [axis0,axis1]
