@@ -1,0 +1,6 @@
+python的基本資料截的基本資料結構
+    list -> 索引,搜尋,排序
+    dict -> key,value,儲存一組資料
+    set -> 元素不可以重複
+
+lis -> for in
