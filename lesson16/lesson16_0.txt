@@ -11,7 +11,12 @@ DataFrame的subscript (三種)
 
 numpy-module
     統計
-    
-
 DataFrame
     實體方法
+    
+清理資料
+    1.選取欄位
+        dataFrame[]
+        dataFrame.iloc[]
+        dataFrame.loc[]
+        dataFrame.reindex()  #實體方法
