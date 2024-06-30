@@ -16,3 +16,5 @@ daraFrame.duplicate()
     daraFrame.apply()
         自訂function(Series)
         return
+            -> 數值    合併 -> Series
+            -> Series 合併 -> DataFrame 
