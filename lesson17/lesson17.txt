@@ -1,0 +1,18 @@
+module
+    1.class
+    2.function
+    3.常數
+實體
+    1.attribute
+    2.property
+    3.method
+
+Series、DataFrame -> 陣列運算
+                     數學運算子(+,-,*,/)
+                     比較運算子(>,<,>=,!=)
+                     執行統計的實體方法
+                        sum()
+                        mean()
+                        max()
+                        min()
+                        std()
