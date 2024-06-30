@@ -1,2 +1,13 @@
 比較相關性 -> 相關係數
 相關係數(correlation)
+
+dist
+"AAPL"      "IBM"       "GOOG"      "MSFT"
+DataFrame   DataFrame   DataFrame   DataFrame
+
+comprehensive
+{ticker:pdr.get_data_yahoo(ticker) for ticker in ['AAPL','IBM']}
+
+daraFrame.drop()
+daraFrame.dropna()
+daraFrame.duplicate()
