@@ -11,3 +11,8 @@ comprehensive
 daraFrame.drop()
 daraFrame.dropna()
 daraFrame.duplicate()
+
+全新統計的DataFrame
+    daraFrame.apply()
+        自訂function(Series)
+        return
