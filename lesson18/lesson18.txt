@@ -1,12 +1,23 @@
 比較相關性 -> 相關係數
 相關係數(correlation)
+    pandas.Series.corr
+        Series.corr(other Series)
+
+pdr.get_data_yahoo('AAPL') -> dataFrame
 
 dist
 "AAPL"      "IBM"       "GOOG"      "MSFT"
 DataFrame   DataFrame   DataFrame   DataFrame
 
 comprehensive
-{ticker:pdr.get_data_yahoo(ticker) for ticker in ['AAPL','IBM']}
+{i for i in []}
+    {ticker:pdr.get_data_yahoo(ticker) for ticker in ['AAPL','IBM','GOOG','MSFT']}
+
+    {ticker:pdr.get_data_yahoo(ticker) for ticker in ['2330.TW','2303.TW','2454.TW','2317.TW']}
+        1.建立list[] -> ['2330.TW','2303.TW','2454.TW','2317.TW']
+        2.for in 迴圈 -> for in ['2330.TW','2303.TW','2454.TW','2317.TW']
+        3.建立dist, ticker為key -> {ticker for ticker in ['2330.TW','2303.TW','2454.TW','2317.TW']}
+        4.使用pdr.get_data_yahoo() -> {ticker:pdr.get_data_yahoo(ticker) for ticker in ['2330.TW','2303.TW','2454.TW','2317.TW']}
 
 daraFrame.drop()
 daraFrame.dropna()
