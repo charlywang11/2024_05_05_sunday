@@ -15,3 +15,7 @@ list[dict]
 
 關聯資料
     pd.merge()
+
+自訂的function
+    def merge(車站資料檔案名稱) -> 傳出Dataframe
+    Dataframe <- merge
