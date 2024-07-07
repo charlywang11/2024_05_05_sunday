@@ -25,3 +25,8 @@ in
 
     names = list(filter(lambda name: '每日各站進出站人數' in name,filenames))
     匿名的function -> lambda
+
+list comprehension
+    for name in names:
+        os.path.join(dataFolder_path,name)
+ -> [os.path.join(dataFolder_path,name) for name in names]
