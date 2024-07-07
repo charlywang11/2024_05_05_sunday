@@ -9,6 +9,7 @@ open()
 list[dict]
     dict -> key
     [] [] [] [] [] []
+           |
     [] [] [] [] [] []
     [] [] [] [] [] []
     [] [] [] [] [] []
@@ -30,3 +31,20 @@ list comprehension
     for name in names:
         os.path.join(dataFolder_path,name)
  -> [os.path.join(dataFolder_path,name) for name in names]
+
+
+二維資料
+              columns
+    [index] [] [] [] [] []
+         [] [] [] [] [] []
+         [] [] [] [] [] []
+         [] [] [] [] [] []
+
+三維資料 -> 階層式索引
+                     columns
+    [index] [index] [] [] [] []
+         []      [] [] [] [] []
+         []      [] [] [] [] []
+         []      [] [] [] [] []
+
+堆疊資料 stack資料 -> 樞紐分析 pivot
