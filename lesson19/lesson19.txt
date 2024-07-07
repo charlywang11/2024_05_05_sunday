@@ -19,3 +19,9 @@ list[dict]
 自訂的function
     def merge(車站資料檔案名稱) -> 傳出Dataframe
     Dataframe <- merge
+
+in
+    True <-'xxx' in 'xxxxxx'
+
+    names = list(filter(lambda name: '每日各站進出站人數' in name,filenames))
+    匿名的function -> lambda
