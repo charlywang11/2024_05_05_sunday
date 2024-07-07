@@ -11,3 +11,9 @@ level的name
           3       1.077535
 unstack()非堆疊
 stack()堆疊
+
+
+key欄位
+    字串,datatime -> 有重覆的 -> 為一組
+數值 -> 統計
+Gropby物件.統計的方法
