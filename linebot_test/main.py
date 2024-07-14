@@ -1,4 +1,4 @@
-from flask import Flask, request, abort
+from flask import Flask,request, abort
 from dotenv import load_dotenv
 from linebot import LineBotApi, WebhookHandler
 from linebot.exceptions import InvalidSignatureError
@@ -14,21 +14,21 @@ handler = WebhookHandler(os.environ['CHANNEL_SECRET'])
 
 @app.route("/")
 def index():
-    return "<h1>LineBot的webhook程式</h1>"
+    return "<h1>LineBot的webhook的程式</h1>"
 
-@app.route("/callback",methods=['POST'])
+@app.route("/callback", methods=['POST'])
 def callback():
     signature = request.headers['X-Line-Signature']
     body = request.get_data(as_text=True)
     app.logger.info("Request body: " + body)
     try:
         handler.handle(body, signature)
-    except IndentationError:
+    except InvalidSignatureError:
         abort(400)
     
     return 'OK'
 
-@handler.add(MemberLeftEvent,message=TextMessage)
+@handler.add(MessageEvent,message=TextMessage)
 def handle_message(event):
     genai.configure(api_key=os.environ['Gemini_API_KEY'])
     model = genai.GenerativeModel('gemini-1.5-flash')
