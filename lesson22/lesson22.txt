@@ -1,0 +1,17 @@
+
+line:young talk
+    如何學習演算法?
+
+->如何學習演算法?
+<-回應
+
+line_bot
+    message AIP
+    如何學習演算法?
+
+->webhook
+<-回應
+
+webhook
+    如何學習演算法?
+    Render Server
