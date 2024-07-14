@@ -11,7 +11,11 @@ github -> render server
             指定python的版本(預設)
             requirements.txt
         WSGI Server -> flask-開發用的wsgi server
+                       gunicor-正式的wsgi server
             WSGI 應用程式
+                $ flask --app     hello       run
+                    命令  options module       命令
+                         - app   -app的引數值
 
 
     後端網站
