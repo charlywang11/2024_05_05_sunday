@@ -10,9 +10,8 @@ github -> render server
         web_server
             指定python的版本(預設)
             requirements.txt
-        基本套件
-            WSGI Server
-                WSGI 應用程式
+        WSGI Server -> flask-開發用的wsgi server
+            WSGI 應用程式
 
 
     後端網站
@@ -29,3 +28,16 @@ github -> render server
             os.環境變數
         環境變數
             密碼
+
+Flask -> class
+wsgi實體(應用程式) <- 
+    from flask import Flask
+
+    app = Flask(__name__)
+
+    @app.route("/")
+    def hello_world():
+        return "<p>Hello, World!</p>"
+
+    wsgi實體(應用程式)
+        
