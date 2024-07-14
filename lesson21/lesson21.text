@@ -1,0 +1,18 @@
+    github
+        repo
+            linebot_test
+
+github -> render server
+
+    render server
+        web_server
+
+
+    後端網站
+        Flask
+            小型的(組合型)
+        djungo
+            套件齊全
+
+    python專案
+        requorement.test
