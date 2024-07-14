@@ -43,5 +43,9 @@ wsgi實體(應用程式) <-
     def hello_world():
         return "<p>Hello, World!</p>"
 
-    wsgi實體(應用程式)
+
+
+生成式的AI
+    chatGPT
+    Gemini
         
