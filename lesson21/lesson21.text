@@ -1,11 +1,18 @@
     github
         repo
             linebot_test
+                ipynb
+                requirements.txt
 
 github -> render server
 
     render server
         web_server
+            指定python的版本(預設)
+            requirements.txt
+        基本套件
+            WSGI Server
+                WSGI 應用程式
 
 
     後端網站
